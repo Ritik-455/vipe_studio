@@ -389,6 +389,7 @@ hr {
   border-radius: 80px;
   background: var(--elips-color-violent);
   border: 2px solid transparent;
+  transition: 0.3s linear;
 }
 
 .mx-w-631 {
@@ -496,6 +497,7 @@ hr {
   border-radius: 137.287px;
   background: var(--color-white);
   border: 1px solid transparent;
+  transition: 0.3s linear;
 }
 
 .perfmc-btn:hover {
@@ -630,7 +632,9 @@ hr {
 .mx-w-610 {
   max-Width: 610.06px
 }
-
+.lh-normal{
+  line-height: normal;
+}
 @media (max-width:1200px) {
   .mobile_view {
     position: absolute;
